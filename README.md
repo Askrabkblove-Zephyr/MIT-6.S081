@@ -50,9 +50,7 @@ Lab 7	Network driver	⏳	-
 Lab 8	Locks	⏳	-
 Lab 9	File system	⏳	-
 Lab 10	MMAP	⏳	-
-📖 学习资料
-官方资源
-课程官网
+
 
 XV6 Book
 
@@ -99,4 +97,5 @@ make grade
 本仓库仅用于学习目的，课程材料版权归MIT所有。
 
 ⭐ 如果这个仓库对你有帮助，请给个Star！
+```
 
