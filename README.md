@@ -36,3 +36,78 @@ cd MIT6.S081
 
 # 3. 测试编译环境
 make qemu
+
+📁 实验列表
+实验编号	实验名称	状态	完成时间
+Lab 1	Unix utilities	✅	YYYY-MM-DD
+Lab 2	System calls	🔄	-
+Lab 3	Page tables	⏳	-
+Lab 4	Traps	⏳	-
+Lab 5	Copy-on-write fork	⏳	-
+Lab 6	Multithreading	⏳	-
+Lab 7	Network driver	⏳	-
+Lab 8	Locks	⏳	-
+Lab 9	File system	⏳	-
+Lab 10	MMAP	⏳	-
+📖 学习资料
+官方资源
+课程官网
+
+XV6 Book
+
+课程视频
+
+参考仓库
+huihongxiao/MIT6.S081
+
+mike-box/MIT6.S081
+
+🗂 项目结构
+text
+MIT6.S081/
+├── labs/                 # 实验代码
+│   ├── lab1/            # Unix utilities
+│   ├── lab2/            # System calls
+│   └── ...
+├── xv6-riscv/           # XV6 操作系统源码
+├── notes/               # 学习笔记
+├── docs/                # 课程文档翻译
+└── tools/               # 开发工具和脚本
+🚀 快速开始
+运行XV6系统
+bash
+cd xv6-riscv
+make qemu
+测试实验代码
+bash
+cd labs/lab1
+make grade
+💡 学习建议
+提前准备: 确保实验环境配置正确
+
+理解原理: 在编码前充分理解相关概念
+
+善用调试: 熟练使用gdb进行内核调试
+
+参考文档: 仔细阅读xv6 book和源码注释
+
+🤝 贡献
+欢迎提交Issue和Pull Request来完善这个仓库！
+
+📄 许可证
+本仓库仅用于学习目的，课程材料版权归MIT所有。
+
+⭐ 如果这个仓库对你有帮助，请给个Star！
+
+text
+
+这个README模板包含了：
+
+1. **课程基本信息** - 名称、官网、年份等
+2. **环境配置** - 详细的安装步骤
+3. **实验进度** - 清晰的表格展示完成状态
+4. **参考资料** - 包含您提供的参考仓库链接
+5. **项目结构** - 清晰的目录说明
+6. **实用信息** - 快速开始、学习建议等
+
+您可以根据自己的实际进度和需求调整内容，特别是实验状态和完成时间。
